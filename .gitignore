@@ -1,0 +1,99 @@
+#########################################
+# General
+#########################################
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+#########################################
+# IntelliJ IDEA
+#########################################
+
+.idea/
+*.iml
+out/
+
+#########################################
+# VS Code
+#########################################
+
+.vscode/
+
+#########################################
+# Eclipse
+#########################################
+
+.project
+.classpath
+.settings/
+
+#########################################
+# Maven / Spring Boot
+#########################################
+
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+#########################################
+# Java
+#########################################
+
+*.class
+
+#########################################
+# Spring Boot
+#########################################
+
+backend/logs/
+backend/*.log
+
+#########################################
+# Application Secrets
+#########################################
+
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-prod.properties
+backend/.env
+
+#########################################
+# React
+#########################################
+
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+#########################################
+# React Environment Files
+#########################################
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+#########################################
+# npm / Yarn / pnpm
+#########################################
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+#########################################
+# Coverage
+#########################################
+
+coverage/
+
+#########################################
+# OS Generated
+#########################################
+
+Desktop.ini
